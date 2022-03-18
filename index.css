@@ -1,0 +1,152 @@
+
+*{
+    box-sizing: border-box;
+}
+.zxc{
+    position: absolute;
+    width: 1032px;
+    height: 1097px;
+    left: -553px;
+    top: -108px;
+    background: #95322C;
+    opacity: 0.1;
+    filter: blur(255px);
+    transform: rotate(30deg);
+    border-radius: 0px;
+
+}
+.asd{
+background: #2C954D;
+position: absolute;
+width: 500px;
+height: 1285px;
+left: 1000px;
+top: -457px;
+opacity: 0.1;
+filter: blur(255px);
+transform: rotate(30deg);
+}
+.navbar{
+    padding: 1rem 0 !important;
+    
+}
+.navbar-collapse {
+    justify-content: flex-end;
+    text-transform: capitalize;
+}
+.navbar-nav {
+    padding-right: 90px;
+}
+.nav-link{
+    color: #3D3D3D !important;
+    font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+padding-right: 2px !important;
+
+}
+.active{
+    color: #238A43 !important;
+    border-bottom: 2px solid;
+}
+.nav-item{
+    padding: 5px;
+    color: #3D3D3D !important;
+}
+.card{
+    border: none !important;
+    background: none !important;
+   
+}
+
+.jumbotron >h1{
+    font-variant: all-small-caps;
+    font-size: 149px;
+    font-family: Bebas Neue;
+    font-weight: 700;
+    line-height: 149px;
+    margin: 15px 0px;
+
+   
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 35px 25px !important;
+    background: #238A43 !important;
+    border: none !important;
+    color: #FFFFFF !important;
+    font-family: Bebas Neue;
+    font-size: 24px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0.15em;
+    border-radius: 0 !important;
+
+
+
+}
+.card-img-overlay { 
+    position: absolute;
+    color: #238A43 !important;
+    width: 65%;
+    background: white;
+    top: 600px !important;
+    right: 0;
+    bottom: 0;
+    left: 100px !important;
+    font-family: Bebas Neue;
+    
+
+
+}
+.img-text-bg{
+    background: #F8DCCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-text{
+    font-size: 44px !important;
+}
+.img-text-desc{
+    font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.list-group-item{
+    background: #FFEFD7 !important;
+    border: none !important;
+    margin: 3px 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    
+}
+.list-group-horizontal {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.list-group{
+    width: 69%;
+    margin-bottom: 20px !important       ;
+}
+list-2{
+    width: 100% !important;
+}
