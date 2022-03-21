@@ -1,0 +1,503 @@
+
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    padding: 1rem 0 !important;
+    
+}
+.navbar-collapse {
+    justify-content: flex-end;
+    text-transform: capitalize;
+}
+.navbar-nav {
+    
+    text-transform: uppercase;
+}
+.nav-link{
+    color: #3D3D3D !important;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+padding-right: 0 !important;
+
+font-size: 15px;
+    margin: 0 19px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+
+}
+.active{
+    color: #f9af18 !important;
+    border-bottom: 2px solid;
+}
+
+
+.nav-item{
+    color: #032e42 !important;
+}
+.nav-item :hover{
+    border-bottom: 2px solid #f9af18;
+    text-decoration: none;
+    transition: all .3s ease-out;
+    max-width: 100%;
+    color: #f9af18 !important;
+    
+}
+.schedule_btn{
+    margin-left: 50px;
+    
+}
+button{
+    border-radius: 1px;
+    border: none;
+    letter-spacing: 0.15em;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;    
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #f9af18;
+    padding: 15px !important;
+}
+button:hover{
+    background: rgb(235, 25, 25);
+}
+.col{
+    flex: 0 0 auto;
+    width: 25.333333% !important;
+    margin: 40px;
+}
+.card{
+    
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: 0.25rem;
+        padding: 60px 40px;
+        background: white !important;
+   
+}
+.card-title{
+    line-height: 40px;
+    margin-bottom: 25px;
+    color: #3b5998;
+    font-family: "Sen", Sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.card-title:hover{
+    color: #f9af18;
+}
+.card-img-top {
+    max-width: 50%;
+    margin-left: 64px;  
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 3rem 1rem !important;
+    line-height: 30px;
+    text-align: center;
+}
+.row {
+    justify-content:center;
+}
+.card-test{
+    text-align: center;
+    color: #000000;
+    font-family: "PT Sans", Sans-serif;
+}
+.jumbotron >h1{
+    font-variant: all-small-caps;
+    font-size: 149px;
+    font-family: Bebas Neue;
+    font-weight: 700;
+    line-height: 149px;
+    margin: 15px 0px;
+
+   
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 35px 25px !important;
+    background: #238A43 !important;
+    border: none !important;
+    color: #FFFFFF !important;
+    font-family: Bebas Neue;
+    font-size: 24px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0.15em;
+    border-radius: 0 !important;
+
+
+
+}
+.card_wrapper{
+    position: absolute;
+    /* width: 100%; */
+    /* height: 100%; */
+    top: 600px !important;
+    padding: 0px 10%;
+}
+.card-img-overlay { 
+    padding: 15px !important; 
+    font-family: 'Bebas Neue';
+    border-radius: 0px !important;
+    background-color: #fff;
+    height: 100%;
+    position: initial !important;
+}
+.img-text-bg{
+    background: #F8DCCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-text{
+    font-size: 44px !important;
+}
+.img-text-desc{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    color: #3D3D3D;
+    flex: none;
+order: 0;
+flex-grow: 0;
+margin: 15px 0px;
+}
+.list-group-item{
+    background: #FFEFD7 !important;
+    border: none !important;
+    margin: 3px 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px 15px !important;
+    
+}
+.list-group-item img{
+    margin-right: 10px;
+
+}
+.list-group-item .cannabis_img{
+    height: 26px;
+    width: 26px;
+}
+.list-group-item .Hemp_img{
+width: 28px;
+height: 29px;
+}
+.list-group-item .Pschedelics_img{
+height: 33px;
+width: 33px;
+}
+.list-group-item .yoga_img{
+    height: 37px;
+    width: 32px;
+}
+
+.list-group-horizontal {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Call_Wrapper{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+
+
+
+.Content_planner_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFEFD7;
+    margin: 0px 10px;
+}
+
+.Content_planner_wrapper input{
+    cursor: pointer;
+    width: 50px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.Content_planner_wrapper .content_text {
+    color: #fff;
+    background-color: #fff;
+    padding: 15px 5px;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    margin-left: 20px;
+}
+.Content_planner_wrapper .content_text p{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #3D3D3D;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+.list-group{
+    width: 69%;
+    margin-bottom: 20px !important       ;
+}
+.list-2{
+    width: 100% !important;
+}
+.banner img{
+    border-radius: 0px;
+}
+.contant_heading{
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 120%;
+    color: #238A43;
+
+}
+.contant_heading p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    color: #3D3D3D;
+}
+.items_list{
+    font-family: 'Raleway';
+    font-size: 20px;
+    line-height: 170%;
+    color: #3D3D3D;
+    
+}
+.items_list li{
+    float: left;
+    width: 50%;
+}
+
+.body_content{
+    width: 50% !important;
+    padding: 0;
+    margin-top: 20% !important;
+}
+
+.body_content_heading {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 110px;
+    text-transform: uppercase;
+    color: #3D3D3D;
+}
+.body_content_text{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 170%;
+color: #3D3D3D;
+}
+/* Media query */
+@media screen and (max-width: 1200px){
+    .navbar-nav {
+        padding-right: 0;
+    }
+    .nav-link {
+        font-size: 16px;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-right: 2px !important;
+    }
+    .jumbotron >h1 {
+        font-size: 120px;
+        line-height: 115px;
+        margin: 11px 0px;
+    }
+
+    .card_wrapper {
+        position: absolute;
+        top: 422px !important;
+        padding: 0px 6%;
+    }
+    .body_content_heading {
+        font-size: 120px;
+        line-height: 115px;
+        margin: 11px 0px;
+        font-variant: all-small-caps;
+    }
+     .body_content_text {
+        font-size: 24px;
+        line-height: 150%;
+    }
+    .img-text {
+        font-size: 36px !important;
+    }
+    .img-text-desc {
+        font-size: 16px;
+        line-height: 160%;
+        margin: 15px 0px;
+    }
+    .items_list {
+        font-size: 16px;
+        line-height: 160%;
+        display: table-footer-group;
+    }
+    .list-group {
+        width: 100%;
+        margin-bottom: 20px !important;
+    }
+    .Call_Wrapper {
+        display: inline-flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .Content_planner_wrapper {
+        margin: 12px 0px;
+    }
+    .img-2 {
+        transform: rotate(20deg);
+        width: 26%;
+        height: 103%;
+        left: 58%;
+        top: -50%;
+    }
+    .container, .container-md, .container-sm {
+        max-width: 900px !important;
+    }
+}
+@media screen and (max-width: 980px){
+    .jumbotron >h1 {
+        font-size: 80px;
+        line-height: 100px;
+        margin: 10px 0px;
+    }
+    .body_content_heading{
+        font-size: 80px;
+        line-height: 100px;
+        margin: 10px 0px;
+    }
+    .card_wrapper {
+        position: absolute;
+        top: 295px !important;
+        padding: 0px 5%;
+    }
+  
+    .body_content_text {
+        font-size: 22px;
+        line-height: 120%;
+    }
+    .img-text {
+        font-size: 24px !important;
+    }
+    .img-text-desc {
+        font-size: 14px;
+        line-height: 140%;
+        margin: 10px 0px;
+    }
+    .items_list {
+        font-size: 14px;
+        display: table-footer-group;
+    }
+    .items_list li {
+        float: none;
+        width: 100%;
+        margin: 0 16px;
+    }
+    .Content_planner_wrapper .content_text {
+        padding: 0px 0px;
+        margin-left: 20px;
+    }
+    .schedule_btn {
+        margin: 0px;
+        padding: 12px 0;
+    }
+    .img-2 {
+        width: 29%;
+        height: 118%;
+    }
+    .img-1 {
+        width: 700px;
+        height: 1065px;
+        left: -587px;
+        top: -146px;
+    }
+    .container, .container-md, .container-sm {
+        max-width: 850px !important;
+    }
+}
+@media screen and (max-width: 768px){
+    .jumbotron >h1 {
+        font-size: 60px;
+        line-height: 67px;
+        margin: 0px 0px;
+    }
+    .body_content_heading {
+        font-size: 60px;
+        line-height: 67px;
+        margin: 0px 0px;
+    }
+    .body_content {
+        display: none;
+    }
+    .img-2 {
+        display: none;
+    }
+    .navbar-nav {
+        align-items: center;
+    }
+    
+
+}
+@media only screen and (max-width: 480px){
+    .navbar-nav {
+        align-items: center;
+    }
+    .jumbotron >h1{
+        font-size: 70px;
+        line-height: 79px;
+        margin: 0px 0px;
+    }
+    .body_content_heading{
+        font-size: 70px;
+        line-height: 79px;
+        margin: 0px 0px;
+    }
+    .jumbotron{
+        text-align: center;
+    }
+    
+    
+}
