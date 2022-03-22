@@ -84,7 +84,11 @@ button:hover{
         border-radius: 0.25rem;
         padding: 60px 40px;
         background: white !important;
+        box-shadow: 3px 3px 15px 0px rgb(228 228 228);
    
+}
+.card:hover{
+    box-shadow: 0px 0px 17px 3px rgb(188 188 188);
 }
 .card-title{
     line-height: 40px;
@@ -109,226 +113,50 @@ button:hover{
 }
 .row {
     justify-content:center;
+    position: absolute;
+    top: 90%;
+    left: 5%;
 }
 .card-test{
     text-align: center;
     color: #000000;
     font-family: "PT Sans", Sans-serif;
 }
-.jumbotron >h1{
-    font-variant: all-small-caps;
-    font-size: 149px;
-    font-family: Bebas Neue;
-    font-weight: 700;
-    line-height: 149px;
-    margin: 15px 0px;
-
-   
+.bg-color{
+    height: 350px;
+    background: #f9af18;
+    color: #ffffff;
+    position: relative;
+    border-radius: 0% 0% 35% 35%;
 }
-.btn{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 26px 35px 25px !important;
-    background: #238A43 !important;
-    border: none !important;
-    color: #FFFFFF !important;
-    font-family: Bebas Neue;
-    font-size: 24px !important;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 34px;
-    letter-spacing: 0.15em;
-    border-radius: 0 !important;
-
-
-
-}
-.card_wrapper{
+.relative-container{
     position: absolute;
-    /* width: 100%; */
-    /* height: 100%; */
-    top: 600px !important;
-    padding: 0px 10%;
-}
-.card-img-overlay { 
-    padding: 15px !important; 
-    font-family: 'Bebas Neue';
-    border-radius: 0px !important;
-    background-color: #fff;
-    height: 100%;
-    position: initial !important;
-}
-.img-text-bg{
-    background: #F8DCCC;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.img-text{
-    font-size: 44px !important;
-}
-.img-text-desc{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 170%;
-    color: #3D3D3D;
-    flex: none;
-order: 0;
-flex-grow: 0;
-margin: 15px 0px;
-}
-.list-group-item{
-    background: #FFEFD7 !important;
-    border: none !important;
-    margin: 3px 8px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 5px 15px !important;
-    
-}
-.list-group-item img{
-    margin-right: 10px;
-
-}
-.list-group-item .cannabis_img{
-    height: 26px;
-    width: 26px;
-}
-.list-group-item .Hemp_img{
-width: 28px;
-height: 29px;
-}
-.list-group-item .Pschedelics_img{
-height: 33px;
-width: 33px;
-}
-.list-group-item .yoga_img{
-    height: 37px;
-    width: 32px;
-}
-
-.list-group-horizontal {
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-.Call_Wrapper{
-    display: inline-flex;
-    justify-content: space-between;
-}
-
-
-
-
-.Content_planner_wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #FFEFD7;
-    margin: 0px 10px;
-}
-
-.Content_planner_wrapper input{
-    cursor: pointer;
-    width: 50px;
-    border: none;
-    outline: none;
-    background-color: transparent;
-}
-
-.Content_planner_wrapper .content_text {
-    color: #fff;
-    background-color: #fff;
-    padding: 15px 5px;
-    display: inline-block;
-    margin-right: 10px;
+    top: 30%;
+    left: 0;
+    right: 0;
     text-align: center;
-    margin-left: 20px;
+    margin: 0 auto;
 }
-.Content_planner_wrapper .content_text p{
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 100%;
-    text-transform: uppercase;
-    color: #3D3D3D;
+.display-2 {
+    font-size: calc(1.575rem + 3.9vw);  
+    font-weight: 500 !important;
+    line-height: 1.2;
+    color: #FFFFFF;
+    font-family: "Sen", Sans-serif;
+    font-size: 65px;
+    font-weight: bold !important;
+    margin-bottom: 20px;
+    /* border-bottom: solid; */
+    margin-bottom: 75px;
+    /* position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
     text-align: center;
-    padding: 10px;
-    margin: 0px;
-}
-.list-group{
-    width: 69%;
-    margin-bottom: 20px !important       ;
-}
-.list-2{
-    width: 100% !important;
-}
-.banner img{
-    border-radius: 0px;
-}
-.contant_heading{
-    text-decoration-line: underline;
-    text-transform: uppercase;
-    font-family: 'Bebas Neue';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 44px;
-    line-height: 120%;
-    color: #238A43;
-
-}
-.contant_heading p{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 170%;
-    color: #3D3D3D;
-}
-.items_list{
-    font-family: 'Raleway';
-    font-size: 20px;
-    line-height: 170%;
-    color: #3D3D3D;
-    
-}
-.items_list li{
-    float: left;
-    width: 50%;
+    margin: 0 auto; */
 }
 
-.body_content{
-    width: 50% !important;
-    padding: 0;
-    margin-top: 20% !important;
-}
 
-.body_content_heading {
-    font-family: 'Bebas Neue';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 100px;
-    line-height: 110px;
-    text-transform: uppercase;
-    color: #3D3D3D;
-}
-.body_content_text{
-    font-family: 'Raleway';
-font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 170%;
-color: #3D3D3D;
-}
 /* Media query */
 @media screen and (max-width: 1200px){
     .navbar-nav {

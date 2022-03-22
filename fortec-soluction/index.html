@@ -51,13 +51,13 @@
     </div>
   </nav>
 </header>
-<div class="container">
-  
-
+<div class="bg-color"></div>
+<div class="container relative-container">
+  <!-- <h1 class="display-2 ">Our Sest Services-</h1> -->
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
       <div class="card">
-        <img src="./img/logo-22.png" class="card-img-top" alt="...">
+        <img src="./img/1.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">WEB DESIGN & DEVELOPMENT</h5>
           <p class="card-text">Our excellent and active Professionals provide you with the best web design and development solution.</p>
@@ -66,7 +66,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="./img/logo-22.png" class="card-img-top" alt="...">
+        <img src="./img/2.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">WEB DESIGN & DEVELOPMENT</h5>
           <p class="card-text">Our excellent and active Professionals provide you with the best web design and development solution.</p>
@@ -75,7 +75,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="./img/logo-22.png" class="card-img-top" alt="...">
+        <img src="./img/3.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">WEB DESIGN & DEVELOPMENT</h5>
           <p class="card-text">Our excellent and active Professionals provide you with the best web design and development solution.</p>
@@ -84,7 +84,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="./img/logo-22.png" class="card-img-top" alt="...">
+        <img src="./img/4.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">WEB DESIGN & DEVELOPMENT</h5>
           <p class="card-text">Our excellent and active Professionals provide you with the best web design and development solution.</p>
@@ -93,7 +93,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="./img/logo-22.png" class="card-img-top" alt="...">
+        <img src="./img/5.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">WEB DESIGN & DEVELOPMENT</h5>
           <p class="card-text">Our excellent and active Professionals provide you with the best web design and development solution.</p>
@@ -102,7 +102,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="./img/logo-22.png" class="card-img-top" alt="...">
+        <img src="./img/6.png " class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">WEB DESIGN & DEVELOPMENT</h5>
           <p class="card-text">Our excellent and active Professionals provide you with the best web design and development solution.</p>
@@ -114,7 +114,107 @@
  
 </div>
 
- 
+<!-- 
+
+</div>
+<div class="main-slider-box">
+    <div class="mySlides">
+        <div class="mySlides_container">
+            <div class="mySlides_wrapper">
+                <img class="img-44" src="./image/Layer 181.png">
+                <div class="slider-item-name">Product Name 1</div>
+            </div>
+            <div class="mySlides_wrapper">
+                <img class="img-44" src="./image/Layer 181.png">
+                <div class="slider-item-name">Product Name 1</div>
+            </div>
+            <div class="mySlides_wrapper">
+                <img class="img-44" src="./image/Layer 181.png">
+                <div class="slider-item-name">Product Name 1</div>
+            </div>
+        </div>
+    </div>
+    <div class="mySlides">
+        <div class="mySlides_container">
+            <div class="mySlides_wrapper">
+                <img class="img-44" src="./image/Layer 182.png">
+                <div class="slider-item-name">Product Name 2</div>
+            </div>
+            <div class="mySlides_wrapper">
+                <img class="img-44" src="./image/Layer 182.png">
+                <div class="slider-item-name">Product Name 2</div>
+            </div>
+            <div class="mySlides_wrapper">
+                <img class="img-44" src="./image/Layer 182.png">
+                <div class="slider-item-name">Product Name 2</div>
+            </div>
+        </div>
+    </div>
+    <div class="mySlides">
+        <div class="mySlides_container">
+            <div class="mySlides_wrapper">
+                <img class="img-44" src="./image/Layer 183.png">
+                <div class="slider-item-name">Product Name 3</div>
+            </div>
+            <div class="mySlides_wrapper">
+                <img class="img-44" src="./image/Layer 183.png">
+                <div class="slider-item-name">Product Name 3</div>
+            </div>
+            <div class="mySlides_wrapper">
+                <img class="img-44" src="./image/Layer 183.png">
+                <div class="slider-item-name">Product Name 3</div>
+            </div>
+        </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+</div> -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+    captionText.innerHTML = dots[slideIndex - 1].alt;
+}
+</script>
+
+
 </body>
 
 </html>
