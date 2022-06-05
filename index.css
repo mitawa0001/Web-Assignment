@@ -1,6 +1,7 @@
 *{
     
     box-sizing: border-box;
+
     
 }
 
@@ -36,6 +37,10 @@
 .section-two{
     display: flex;
     background-color: #f7f8fd;
+    
+}
+.alpha{
+    margin-top: 100px;
 }
 .section-box{
     margin: 65px 0px;
@@ -63,14 +68,56 @@
     margin-top: 72px;
     line-height: 27px;
     margin-bottom: 150px;
+    line-height: 35px;
+}
+.heading-dis-two{
+    margin-top: 72px;
+    line-height: 27px;
+    margin-bottom: 50px;
 }
 .comment-box{
     width: 100%;
-    margin: -44px 582px;
-}
-.section-two-dis .heading-dis{
+    margin-top: -44px;
     text-align: center;
 }
+.section-two-dis .heading-dis-two{
+    text-align: center;
+    line-height: 35px;
+}
+.comment-box-profile{
+    width: 100%;
+    text-align: center;
+    
+}
+.comment-box-profile >img{
+    border-radius: 50%;
+}
+.profile-name{
+    text-align: center;
+    color: #47c1f0;
+    width: 100%;
+    margin: 30px 0 20px;
+    text-transform: uppercase;
+}.profile-name-two{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 78px;
+}
+.last-section{
+    margin-top: 0 !important;
+}
+.sub-heading{
+    font-weight: 500;
+    margin-bottom: 0px;
+    line-height: 35px;
+}
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1200px){
 
