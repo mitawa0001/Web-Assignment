@@ -62,7 +62,14 @@
 .heading-dis{
     margin-top: 72px;
     line-height: 27px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
+}
+.comment-box{
+    width: 100%;
+    margin: -44px 582px;
+}
+.section-two-dis .heading-dis{
+    text-align: center;
 }
 
 @media screen and (max-width: 1200px){
